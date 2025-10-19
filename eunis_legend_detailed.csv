@@ -1,0 +1,337 @@
+Id,Code,Color,EUNIS1,EUNIS2,EUNIS3,EUNIS1_name,EUNIS2_name,EUNIS3_name,hexcolor,Label
+0,0,"(167, 167, 167)",URBAN,,,,,,#a7a7a7,URBAN
+1,100,"(255, 255, 255)",SEA,,,,,,#ffffff,SEA
+2,200,"(2, 140, 140)",WATER_COURSES,,,,,,#028c8c,WATER_COURSES
+3,300,"(49, 162, 162)",LAKES_RESERVOIRS,,,,,,#31a2a2,LAKES_RESERVOIRS
+4,400,"(97, 185, 185)",TRANSITIONAL_WATERS,,,,,,#61b9b9,TRANSITIONAL_WATERS
+5,1000,"(73, 88, 228)",MA2,,,Littoral biogenic habitats,,,#4958e4,MA2 - Littoral biogenic habitats
+6,1100,"(73, 88, 228)",MA2,MA21,,Littoral biogenic habitats,Arctic littoral biogenic habitats,,#4958e4,MA21 - Arctic littoral biogenic habitats
+7,1101,"(73, 88, 228)",MA2,MA21,MA211,Littoral biogenic habitats,Arctic littoral biogenic habitats,Arctic coastal saltmarsh,#4958e4,MA211 - Arctic coastal saltmarsh
+8,1200,"(9, 81, 235)",MA2,MA22,,Littoral biogenic habitats,Atlantic littoral biogenic habitats,,#0951eb,MA22 - Atlantic littoral biogenic habitats
+9,1201,"(9, 81, 235)",MA2,MA22,MA221,Littoral biogenic habitats,Atlantic littoral biogenic habitats,Atlantic saltmarsh driftline,#0951eb,MA221 - Atlantic saltmarsh driftline
+10,1202,"(9, 81, 235)",MA2,MA22,MA222,Littoral biogenic habitats,Atlantic littoral biogenic habitats,Atlantic upper saltmarsh,#0951eb,MA222 - Atlantic upper saltmarsh
+11,1203,"(9, 81, 235)",MA2,MA22,MA223,Littoral biogenic habitats,Atlantic littoral biogenic habitats,"Atlantic upper-mid saltmarsh and saline and brackish reed, rush and sedge bed",#0951eb,"MA223 - Atlantic upper-mid saltmarsh and saline and brackish reed, rush and sedge bed"
+12,1204,"(9, 81, 235)",MA2,MA22,MA224,Littoral biogenic habitats,Atlantic littoral biogenic habitats,Atlantic mid-low saltmarsh,#0951eb,MA224 - Atlantic mid-low saltmarsh
+13,1205,"(9, 81, 235)",MA2,MA22,MA225,Littoral biogenic habitats,Atlantic littoral biogenic habitats,Atlantic pioneer saltmarsh,#0951eb,MA225 - Atlantic pioneer saltmarsh
+14,1300,"(32, 39, 99)",MA2,MA23,,Littoral biogenic habitats,Baltic hydrolittoral biogenic habitats,,#202763,MA23 - Baltic hydrolittoral biogenic habitats
+15,1302,"(32, 39, 99)",MA2,MA23,MA232,Littoral biogenic habitats,Baltic hydrolittoral biogenic habitats,Baltic coastal meadow,#202763,MA232 - Baltic coastal meadow
+16,1400,"(8, 0, 251)",MA2,MA24,,Littoral biogenic habitats,Black Sea littoral biogenic habitats,,#0800fb,MA24 - Black Sea littoral biogenic habitats
+17,1401,"(8, 0, 251)",MA2,MA24,MA241,Littoral biogenic habitats,Black Sea littoral biogenic habitats,Black Sea littoral saltmarsh,#0800fb,MA241 - Black Sea littoral saltmarsh
+18,1500,"(20, 18, 88)",MA2,MA25,,Littoral biogenic habitats,Mediterranean littoral biogenic habitats,,#141258,MA25 - Mediterranean littoral biogenic habitats
+19,1501,"(20, 18, 88)",MA2,MA25,MA251,Littoral biogenic habitats,Mediterranean littoral biogenic habitats,Mediterranean upper saltmarsh,#141258,MA251 - Mediterranean upper saltmarsh
+20,1502,"(20, 18, 88)",MA2,MA25,MA252,Littoral biogenic habitats,Mediterranean littoral biogenic habitats,"Mediterranean upper-mid saltmarsh and saline and brackish reed, rush and sedge bed",#141258,"MA252 - Mediterranean upper-mid saltmarsh and saline and brackish reed, rush and sedge bed"
+21,1503,"(20, 18, 88)",MA2,MA25,MA253,Littoral biogenic habitats,Mediterranean littoral biogenic habitats,Mediterranean mid-low saltmarsh,#141258,MA253 - Mediterranean mid-low saltmarsh
+22,2000,"(128, 48, 90)",N,,,Coastal habitats,,,#80305a,N - Coastal habitats
+23,2100,"(128, 48, 90)",N,N1,,Coastal habitats,Coastal dunes and sandy shores ,,#80305a,N1 - Coastal dunes and sandy shores 
+24,2101,"(128, 48, 90)",N,N1,N11,Coastal habitats,Coastal dunes and sandy shores ,"Atlantic, Baltic and Arctic sand beach",#80305a,"N11 - Atlantic, Baltic and Arctic sand beach"
+25,2102,"(128, 48, 90)",N,N1,N12,Coastal habitats,Coastal dunes and sandy shores ,Mediterranean and Black Sea sand beach,#80305a,N12 - Mediterranean and Black Sea sand beach
+26,2103,"(128, 48, 90)",N,N1,N13,Coastal habitats,Coastal dunes and sandy shores ,Atlantic and Baltic shifting coastal dune,#80305a,N13 - Atlantic and Baltic shifting coastal dune
+27,2104,"(128, 48, 90)",N,N1,N14,Coastal habitats,Coastal dunes and sandy shores ,"Mediterranean, Macaronesian and Black Sea shifting coastal dune",#80305a,"N14 - Mediterranean, Macaronesian and Black Sea shifting coastal dune"
+28,2105,"(211, 188, 38)",N,N1,N15,Coastal habitats,Coastal dunes and sandy shores ,Atlantic and Baltic coastal dune grassland (grey dune),#d3bc26,N15 - Atlantic and Baltic coastal dune grassland (grey dune)
+29,2106,"(211, 188, 38)",N,N1,N16,Coastal habitats,Coastal dunes and sandy shores ,Mediterranean and Macaronesian coastal dune grassland (grey dune),#d3bc26,N16 - Mediterranean and Macaronesian coastal dune grassland (grey dune)
+30,2107,"(211, 188, 38)",N,N1,N17,Coastal habitats,Coastal dunes and sandy shores ,Black Sea coastal dune grassland (grey dune),#d3bc26,N17 - Black Sea coastal dune grassland (grey dune)
+31,2108,"(54, 0, 0)",N,N1,N18,Coastal habitats,Coastal dunes and sandy shores ,Atlantic and Baltic coastal Empetrum heath,#360000,N18 - Atlantic and Baltic coastal Empetrum heath
+32,2109,"(54, 0, 0)",N,N1,N19,Coastal habitats,Coastal dunes and sandy shores ,Atlantic coastal Calluna and Ulex heath,#360000,N19 - Atlantic coastal Calluna and Ulex heath
+33,2110,"(54, 0, 0)",N,N1,N1A,Coastal habitats,Coastal dunes and sandy shores ,Atlantic and Baltic coastal dune scrub,#360000,N1A - Atlantic and Baltic coastal dune scrub
+34,2111,"(54, 0, 0)",N,N1,N1B,Coastal habitats,Coastal dunes and sandy shores ,Mediterranean and Black Sea coastal dune scrub,#360000,N1B - Mediterranean and Black Sea coastal dune scrub
+35,2112,"(54, 0, 0)",N,N1,N1C,Coastal habitats,Coastal dunes and sandy shores ,Macaronesian coastal dune scrub,#360000,N1C - Macaronesian coastal dune scrub
+36,2113,"(23, 106, 13)",N,N1,N1D,Coastal habitats,Coastal dunes and sandy shores ,Atlantic and Baltic broad-leaved coastal dune forest,#176a0d,N1D - Atlantic and Baltic broad-leaved coastal dune forest
+37,2114,"(23, 106, 13)",N,N1,N1E,Coastal habitats,Coastal dunes and sandy shores ,Black Sea broad-leaved coastal dune forest,#176a0d,N1E - Black Sea broad-leaved coastal dune forest
+38,2115,"(23, 106, 13)",N,N1,N1F,Coastal habitats,Coastal dunes and sandy shores ,Baltic coniferous coastal dune forest,#176a0d,N1F - Baltic coniferous coastal dune forest
+39,2116,"(23, 106, 13)",N,N1,N1G,Coastal habitats,Coastal dunes and sandy shores ,Mediterranean coniferous coastal dune forest,#176a0d,N1G - Mediterranean coniferous coastal dune forest
+40,2117,"(148, 220, 248)",N,N1,N1H,Coastal habitats,Coastal dunes and sandy shores ,Atlantic and Baltic moist and wet dune slack,#94dcf8,N1H - Atlantic and Baltic moist and wet dune slack
+41,2119,"(148, 220, 248)",N,N1,N1J,Coastal habitats,Coastal dunes and sandy shores ,Mediterranean and Black Sea moist and wet dune slack,#94dcf8,N1J - Mediterranean and Black Sea moist and wet dune slack
+42,2200,"(58, 34, 128)",N,N2,,Coastal habitats,Coastal shingle,,#3a2280,N2 - Coastal shingle
+43,2201,"(58, 34, 128)",N,N2,N21,Coastal habitats,Coastal shingle,"Atlantic, Baltic and Arctic coastal shingle beach",#3a2280,"N21 - Atlantic, Baltic and Arctic coastal shingle beach"
+44,2202,"(58, 34, 128)",N,N2,N22,Coastal habitats,Coastal shingle,Mediterranean and Black Sea coastal shingle beach,#3a2280,N22 - Mediterranean and Black Sea coastal shingle beach
+45,2300,"(191, 32, 164)",N,N3,,Coastal habitats,"Rock cliffs, ledges and shores, including the supralittoral ",,#bf20a4,"N3 - Rock cliffs, ledges and shores, including the supralittoral "
+46,2301,"(191, 32, 164)",N,N3,N31,Coastal habitats,"Rock cliffs, ledges and shores, including the supralittoral ",Atlantic and Baltic rocky sea cliff and shore,#bf20a4,N31 - Atlantic and Baltic rocky sea cliff and shore
+47,2302,"(191, 32, 164)",N,N3,N32,Coastal habitats,"Rock cliffs, ledges and shores, including the supralittoral ",Mediterranean and Black Sea rocky sea cliff and shore,#bf20a4,N32 - Mediterranean and Black Sea rocky sea cliff and shore
+48,2303,"(191, 32, 164)",N,N3,N33,Coastal habitats,"Rock cliffs, ledges and shores, including the supralittoral ",Macaronesian rocky sea cliff and shore,#bf20a4,N33 - Macaronesian rocky sea cliff and shore
+49,2304,"(191, 32, 164)",N,N3,N34,Coastal habitats,"Rock cliffs, ledges and shores, including the supralittoral ",Atlantic and Baltic soft sea cliff,#bf20a4,N34 - Atlantic and Baltic soft sea cliff
+50,2305,"(191, 32, 164)",N,N3,N35,Coastal habitats,"Rock cliffs, ledges and shores, including the supralittoral ",Mediterranean and Black Sea soft sea cliff,#bf20a4,N35 - Mediterranean and Black Sea soft sea cliff
+51,3000,"(2, 140, 140)",P,,,Inland water,,,#028c8c,P - Inland water
+52,3100,"(2, 140, 140)",P,P1,,Inland water,Standing aquatic habitats,,#028c8c,P1 - Standing aquatic habitats
+53,3200,"(2, 140, 140)",P,P2,,Inland water,Running aquatic habitats,,#028c8c,P2 - Running aquatic habitats
+54,3300,"(2, 140, 140)",P,P3,,Inland water,Freshwater vegetation,,#028c8c,P3 - Freshwater vegetation
+55,3301,"(2, 140, 140)",P,P3,P3a,Inland water,Freshwater vegetation,Base-poor spring and spring brook,#028c8c,P3a - Base-poor spring and spring brook
+56,3302,"(2, 140, 140)",P,P3,P3b,Inland water,Freshwater vegetation,Calcareous spring and spring brook,#028c8c,P3b - Calcareous spring and spring brook
+57,3303,"(2, 140, 140)",P,P3,P3c,Inland water,Freshwater vegetation,Brackish-water vegetation,#028c8c,P3c - Brackish-water vegetation
+58,3304,"(2, 140, 140)",P,P3,P3d,Inland water,Freshwater vegetation,Fresh-water small pleustophyte vegetation,#028c8c,P3d - Fresh-water small pleustophyte vegetation
+59,3305,"(2, 140, 140)",P,P3,P3e,Inland water,Freshwater vegetation,Fresh-water large pleustophyte vegetation,#028c8c,P3e - Fresh-water large pleustophyte vegetation
+60,3306,"(2, 140, 140)",P,P3,P3f,Inland water,Freshwater vegetation,Fresh-water submerged vegetation,#028c8c,P3f - Fresh-water submerged vegetation
+61,3307,"(2, 140, 140)",P,P3,P3g,Inland water,Freshwater vegetation,Fresh-water nymphaeid vegetation,#028c8c,P3g - Fresh-water nymphaeid vegetation
+62,3308,"(2, 140, 140)",P,P3,P3h,Inland water,Freshwater vegetation,Oligotrophic-water vegetation,#028c8c,P3h - Oligotrophic-water vegetation
+63,3309,"(2, 140, 140)",P,P3,P3i,Inland water,Freshwater vegetation,Dystrophic-water vegetation,#028c8c,P3i - Dystrophic-water vegetation
+64,3310,"(2, 140, 140)",P,P3,P3j,Inland water,Freshwater vegetation,Stonewort vegetation,#028c8c,P3j - Stonewort vegetation
+65,4000,"(29, 216, 160)",Q,,,Wetlands,,,#1dd8a0,Q - Wetlands
+66,4100,"(29, 216, 160)",Q,Q1,,Wetlands,Raised and blanket bogs ,,#1dd8a0,Q1 - Raised and blanket bogs 
+67,4101,"(29, 216, 160)",Q,Q1,Q11,Wetlands,Raised and blanket bogs ,Raised bog,#1dd8a0,Q11 - Raised bog
+68,4102,"(29, 216, 160)",Q,Q1,Q12,Wetlands,Raised and blanket bogs ,Blanket bog,#1dd8a0,Q12 - Blanket bog
+69,4200,"(24, 181, 116)",Q,Q2,,Wetlands,"Valley mires, poor fens and transition mires ",,#18b574,"Q2 - Valley mires, poor fens and transition mires "
+70,4201,"(24, 181, 116)",Q,Q2,Q21,Wetlands,"Valley mires, poor fens and transition mires ",Oceanic valley mire,#18b574,Q21 - Oceanic valley mire
+71,4202,"(24, 181, 116)",Q,Q2,Q22,Wetlands,"Valley mires, poor fens and transition mires ",Poor fen,#18b574,Q22 - Poor fen
+72,4203,"(24, 181, 116)",Q,Q2,Q23,Wetlands,"Valley mires, poor fens and transition mires ",Relict mire of Mediterranean mountains ,#18b574,Q23 - Relict mire of Mediterranean mountains 
+73,4204,"(24, 181, 116)",Q,Q2,Q24,Wetlands,"Valley mires, poor fens and transition mires ",Intermediate fen and soft-water spring mire,#18b574,Q24 - Intermediate fen and soft-water spring mire
+74,4205,"(24, 181, 116)",Q,Q2,Q25,Wetlands,"Valley mires, poor fens and transition mires ",Non-calcareous quaking mire,#18b574,Q25 - Non-calcareous quaking mire
+75,4300,"(23, 180, 110)",Q,Q3,,Wetlands,Palsa and polygon mires,,#17b46e,Q3 - Palsa and polygon mires
+76,4400,"(22, 103, 55)",Q,Q4,,Wetlands,Base-rich fens and calcareous spring mires,,#166737,Q4 - Base-rich fens and calcareous spring mires
+77,4401,"(22, 103, 55)",Q,Q4,Q41,Wetlands,Base-rich fens and calcareous spring mires,"Alkaline, calcareous, carbonate-rich small-sedge spring fen",#166737,"Q41 - Alkaline, calcareous, carbonate-rich small-sedge spring fen"
+78,4402,"(22, 103, 55)",Q,Q4,Q42,Wetlands,Base-rich fens and calcareous spring mires,Extremely rich moss-sedge fen,#166737,Q42 - Extremely rich moss-sedge fen
+79,4403,"(22, 103, 55)",Q,Q4,Q43,Wetlands,Base-rich fens and calcareous spring mires,Tall-sedge base-rich fen,#166737,Q43 - Tall-sedge base-rich fen
+80,4404,"(22, 103, 55)",Q,Q4,Q44,Wetlands,Base-rich fens and calcareous spring mires,Calcareous quaking mire,#166737,Q44 - Calcareous quaking mire
+81,4405,"(22, 103, 55)",Q,Q4,Q45,Wetlands,Base-rich fens and calcareous spring mires,Arctic-alpine rich fen,#166737,Q45 - Arctic-alpine rich fen
+82,4406,"(22, 103, 55)",Q,Q4,Q46,Wetlands,Base-rich fens and calcareous spring mires,Carpathian travertine fen with halophytes,#166737,Q46 - Carpathian travertine fen with halophytes
+83,4500,"(25, 61, 40)",Q,Q5,,Wetlands,Helophyte beds,,#193d28,Q5 - Helophyte beds
+84,4501,"(25, 61, 40)",Q,Q5,Q51,Wetlands,Helophyte beds,Tall-helophyte bed,#193d28,Q51 - Tall-helophyte bed
+85,4502,"(25, 61, 40)",Q,Q5,Q52,Wetlands,Helophyte beds,Small-helophyte bed,#193d28,Q52 - Small-helophyte bed
+86,4503,"(25, 61, 40)",Q,Q5,Q53,Wetlands,Helophyte beds,Tall-sedge bed,#193d28,Q53 - Tall-sedge bed
+87,4504,"(25, 61, 40)",Q,Q5,Q54,Wetlands,Helophyte beds,Inland saline or brackish helophyte bed,#193d28,Q54 - Inland saline or brackish helophyte bed
+88,4600,"(49, 80, 65)",Q,Q6,,Wetlands,Periodically exposed shores,,#315041,Q6 - Periodically exposed shores
+89,4601,"(49, 80, 65)",Q,Q6,Q61,Wetlands,Periodically exposed shores,"Periodically exposed shore with stable, eutrophic sediments with pioneer or ephemeral vegetation",#315041,"Q61 - Periodically exposed shore with stable, eutrophic sediments with pioneer or ephemeral vegetation"
+90,4602,"(49, 80, 65)",Q,Q6,Q62,Wetlands,Periodically exposed shores,"Periodically exposed shore with stable, mesotrophic sediments with pioneer or ephemeral vegetation",#315041,"Q62 - Periodically exposed shore with stable, mesotrophic sediments with pioneer or ephemeral vegetation"
+91,4603,"(49, 80, 65)",Q,Q6,Q63,Wetlands,Periodically exposed shores,Periodically exposed saline shore with pioneer or ephemeral vegetation,#315041,Q63 - Periodically exposed saline shore with pioneer or ephemeral vegetation
+92,5000,"(211, 188, 38)",R,,,"Grasslands and lands dominated by forbs, mosses or lichens",,,#d3bc26,"R - Grasslands and lands dominated by forbs, mosses or lichens"
+93,5100,"(211, 188, 38)",R,R1,,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,,#d3bc26,R1 - Dry grasslands
+94,5101,"(211, 188, 38)",R,R1,R11,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Pannonian and Pontic sandy steppe,#d3bc26,R11 - Pannonian and Pontic sandy steppe
+95,5102,"(211, 188, 38)",R,R1,R12,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Cryptogam- and annual-dominated vegetation on siliceous rock outcrops,#d3bc26,R12 - Cryptogam- and annual-dominated vegetation on siliceous rock outcrops
+96,5103,"(211, 188, 38)",R,R1,R13,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Cryptogam- and annual-dominated vegetation on calcareous and ultramafic rock outcrops,#d3bc26,R13 - Cryptogam- and annual-dominated vegetation on calcareous and ultramafic rock outcrops
+97,5104,"(211, 188, 38)",R,R1,R14,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Perennial rocky grassland of the Italian Peninsula ,#d3bc26,R14 - Perennial rocky grassland of the Italian Peninsula 
+98,5105,"(211, 188, 38)",R,R1,R15,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Continental dry rocky steppic grassland and dwarf scrub on chalk outcrops,#d3bc26,R15 - Continental dry rocky steppic grassland and dwarf scrub on chalk outcrops
+99,5106,"(211, 188, 38)",R,R1,R16,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Perennial rocky grassland of Central and South-Eastern Europe,#d3bc26,R16 - Perennial rocky grassland of Central and South-Eastern Europe
+100,5107,"(211, 188, 38)",R,R1,R17,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Heavy-metal dry grassland of the Balkans,#d3bc26,R17 - Heavy-metal dry grassland of the Balkans
+101,5108,"(211, 188, 38)",R,R1,R18,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Perennial rocky calcareous grassland of subatlantic-submediterranean Europe,#d3bc26,R18 - Perennial rocky calcareous grassland of subatlantic-submediterranean Europe
+102,5109,"(211, 188, 38)",R,R1,R19,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Dry steppic submediterranean pasture of the Amphi-Adriatic region,#d3bc26,R19 - Dry steppic submediterranean pasture of the Amphi-Adriatic region
+103,5110,"(211, 188, 38)",R,R1,R1A,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Semi-dry perennial calcareous grassland (meadow steppe),#d3bc26,R1A - Semi-dry perennial calcareous grassland (meadow steppe)
+104,5111,"(211, 188, 38)",R,R1,R1B,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Continental dry grassland (true steppe),#d3bc26,R1B - Continental dry grassland (true steppe)
+105,5112,"(211, 188, 38)",R,R1,R1C,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Desert steppe,#d3bc26,R1C - Desert steppe
+106,5113,"(211, 188, 38)",R,R1,R1D,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Mediterranean closely grazed dry grassland,#d3bc26,R1D - Mediterranean closely grazed dry grassland
+107,5114,"(211, 188, 38)",R,R1,R1E,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Mediterranean tall perennial dry grassland,#d3bc26,R1E - Mediterranean tall perennial dry grassland
+108,5115,"(211, 188, 38)",R,R1,R1F,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Mediterranean annual-rich dry grassland,#d3bc26,R1F - Mediterranean annual-rich dry grassland
+109,5116,"(211, 188, 38)",R,R1,R1G,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Iberian oromediterranean siliceous dry grassland,#d3bc26,R1G - Iberian oromediterranean siliceous dry grassland
+110,5117,"(211, 188, 38)",R,R1,R1H,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Iberian oromediterranean basiphilous dry grassland,#d3bc26,R1H - Iberian oromediterranean basiphilous dry grassland
+111,5119,"(211, 188, 38)",R,R1,R1J,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Cyrno-Sardean oromediterranean siliceous dry grassland,#d3bc26,R1J - Cyrno-Sardean oromediterranean siliceous dry grassland
+112,5120,"(211, 188, 38)",R,R1,R1K,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Balkan and Anatolian oromediterranean dry grassland,#d3bc26,R1K - Balkan and Anatolian oromediterranean dry grassland
+113,5121,"(211, 188, 38)",R,R1,R1L,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Madeiran oromediterranean siliceous dry grassland,#d3bc26,R1L - Madeiran oromediterranean siliceous dry grassland
+114,5122,"(211, 188, 38)",R,R1,R1M,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,"Lowland to montane, dry to mesic grassland usually dominated by Nardus stricta",#d3bc26,"R1M - Lowland to montane, dry to mesic grassland usually dominated by Nardus stricta"
+115,5123,"(211, 188, 38)",R,R1,R1N,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Open Iberian supramediterranean dry acid and neutral grassland ,#d3bc26,R1N - Open Iberian supramediterranean dry acid and neutral grassland 
+116,5125,"(211, 188, 38)",R,R1,R1P,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Oceanic to subcontinental inland sand grassland on dry acid and neutral soils,#d3bc26,R1P - Oceanic to subcontinental inland sand grassland on dry acid and neutral soils
+117,5126,"(211, 188, 38)",R,R1,R1Q,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Inland sanddrift and dune with siliceous grassland,#d3bc26,R1Q - Inland sanddrift and dune with siliceous grassland
+118,5127,"(211, 188, 38)",R,R1,R1R,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,"Mediterranean to Atlantic open, dry, acid and neutral grassland ",#d3bc26,"R1R - Mediterranean to Atlantic open, dry, acid and neutral grassland "
+119,5128,"(211, 188, 38)",R,R1,R1S,"Grasslands and lands dominated by forbs, mosses or lichens",Dry grasslands,Heavy-metal grassland in Western and Central Europe ,#d3bc26,R1S - Heavy-metal grassland in Western and Central Europe 
+120,5200,"(184, 212, 26)",R,R2,,"Grasslands and lands dominated by forbs, mosses or lichens",Mesic grasslands,,#b8d41a,R2 - Mesic grasslands
+121,5201,"(184, 212, 26)",R,R2,R21,"Grasslands and lands dominated by forbs, mosses or lichens",Mesic grasslands,Mesic permanent pasture of lowlands and mountains,#b8d41a,R21 - Mesic permanent pasture of lowlands and mountains
+122,5202,"(184, 212, 26)",R,R2,R22,"Grasslands and lands dominated by forbs, mosses or lichens",Mesic grasslands,Low and medium altitude hay meadow,#b8d41a,R22 - Low and medium altitude hay meadow
+123,5203,"(184, 212, 26)",R,R2,R23,"Grasslands and lands dominated by forbs, mosses or lichens",Mesic grasslands,Mountain hay meadow,#b8d41a,R23 - Mountain hay meadow
+124,5204,"(184, 212, 26)",R,R2,R24,"Grasslands and lands dominated by forbs, mosses or lichens",Mesic grasslands,Iberian summer pasture (vallicar),#b8d41a,R24 - Iberian summer pasture (vallicar)
+125,5300,"(161, 220, 26)",R,R3,,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,,#a1dc1a,R3 - Seasonally wet and wet grasslands
+126,5301,"(161, 220, 26)",R,R3,R31,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Mediterranean tall humid inland grassland,#a1dc1a,R31 - Mediterranean tall humid inland grassland
+127,5302,"(161, 220, 26)",R,R3,R32,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Mediterranean short moist grassland of lowlands,#a1dc1a,R32 - Mediterranean short moist grassland of lowlands
+128,5303,"(161, 220, 26)",R,R3,R33,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Mediterranean short moist grassland of mountains,#a1dc1a,R33 - Mediterranean short moist grassland of mountains
+129,5304,"(161, 220, 26)",R,R3,R34,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Submediterranean moist meadow,#a1dc1a,R34 - Submediterranean moist meadow
+130,5305,"(161, 220, 26)",R,R3,R35,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Moist or wet mesotrophic to eutrophic hay meadow,#a1dc1a,R35 - Moist or wet mesotrophic to eutrophic hay meadow
+131,5306,"(161, 220, 26)",R,R3,R36,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Moist or wet mesotrophic to eutrophic pasture,#a1dc1a,R36 - Moist or wet mesotrophic to eutrophic pasture
+132,5307,"(161, 220, 26)",R,R3,R37,"Grasslands and lands dominated by forbs, mosses or lichens",Seasonally wet and wet grasslands,Temperate and boreal moist or wet oligotrophic grassland,#a1dc1a,R37 - Temperate and boreal moist or wet oligotrophic grassland
+133,5400,"(142, 211, 38)",R,R4,,"Grasslands and lands dominated by forbs, mosses or lichens",Alpine and subalpine grasslands,,#8ed326,R4 - Alpine and subalpine grasslands
+134,5401,"(142, 211, 38)",R,R4,R41,"Grasslands and lands dominated by forbs, mosses or lichens",Alpine and subalpine grasslands,Snow-bed vegetation,#8ed326,R41 - Snow-bed vegetation
+135,5402,"(142, 211, 38)",R,R4,R42,"Grasslands and lands dominated by forbs, mosses or lichens",Alpine and subalpine grasslands,Boreal and Arctic acidophilous alpine grassland ,#8ed326,R42 - Boreal and Arctic acidophilous alpine grassland 
+136,5403,"(142, 211, 38)",R,R4,R43,"Grasslands and lands dominated by forbs, mosses or lichens",Alpine and subalpine grasslands,Temperate acidophilous alpine grassland ,#8ed326,R43 - Temperate acidophilous alpine grassland 
+137,5404,"(142, 211, 38)",R,R4,R44,"Grasslands and lands dominated by forbs, mosses or lichens",Alpine and subalpine grasslands,Arctic-alpine calcareous grassland,#8ed326,R44 - Arctic-alpine calcareous grassland
+138,5405,"(142, 211, 38)",R,R4,R45,"Grasslands and lands dominated by forbs, mosses or lichens",Alpine and subalpine grasslands,Alpine and subalpine calcareous grassland of the Balkans and Apennines,#8ed326,R45 - Alpine and subalpine calcareous grassland of the Balkans and Apennines
+139,5500,"(144, 228, 17)",R,R5,,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,,#90e411,R5 - Woodland fringes and clearings and tall forb stands
+140,5501,"(144, 228, 17)",R,R5,R51,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Thermophilous forest fringe of base-rich soils,#90e411,R51 - Thermophilous forest fringe of base-rich soils
+141,5502,"(144, 228, 17)",R,R5,R52,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Forest fringe of acidic nutrient-poor soils,#90e411,R52 - Forest fringe of acidic nutrient-poor soils
+142,5503,"(144, 228, 17)",R,R5,R53,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Macaronesian thermophilous forest fringe,#90e411,R53 - Macaronesian thermophilous forest fringe
+143,5504,"(144, 228, 17)",R,R5,R54,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Pteridium aquilinum vegetation,#90e411,R54 - Pteridium aquilinum vegetation
+144,5505,"(144, 228, 17)",R,R5,R55,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Lowland moist or wet tall-herb and fern fringe,#90e411,R55 - Lowland moist or wet tall-herb and fern fringe
+145,5506,"(144, 228, 17)",R,R5,R56,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Montane to subalpine moist or wet tall-herb and fern fringe,#90e411,R56 - Montane to subalpine moist or wet tall-herb and fern fringe
+146,5507,"(144, 228, 17)",R,R5,R57,"Grasslands and lands dominated by forbs, mosses or lichens",Woodland fringes and clearings and tall forb stands,Herbaceous forest clearing vegetation,#90e411,R57 - Herbaceous forest clearing vegetation
+147,5600,"(108, 227, 20)",R,R6,,"Grasslands and lands dominated by forbs, mosses or lichens",Inland salt steppes,,#6ce314,R6 - Inland salt steppes
+148,5601,"(108, 227, 20)",R,R6,R61,"Grasslands and lands dominated by forbs, mosses or lichens",Inland salt steppes,Mediterranean inland salt steppe,#6ce314,R61 - Mediterranean inland salt steppe
+149,5602,"(108, 227, 20)",R,R6,R62,"Grasslands and lands dominated by forbs, mosses or lichens",Inland salt steppes,Continental inland salt steppe,#6ce314,R62 - Continental inland salt steppe
+150,5603,"(108, 227, 20)",R,R6,R63,"Grasslands and lands dominated by forbs, mosses or lichens",Inland salt steppes,Temperate inland salt marsh,#6ce314,R63 - Temperate inland salt marsh
+151,5604,"(108, 227, 20)",R,R6,R64,"Grasslands and lands dominated by forbs, mosses or lichens",Inland salt steppes,Semi-desert salt pan,#6ce314,R64 - Semi-desert salt pan
+152,5605,"(108, 227, 20)",R,R6,R65,"Grasslands and lands dominated by forbs, mosses or lichens",Inland salt steppes,Continental subsaline alluvial pasture and meadow,#6ce314,R65 - Continental subsaline alluvial pasture and meadow
+153,5700,"(38, 211, 46)",R,R7,,"Grasslands and lands dominated by forbs, mosses or lichens",Sparsely wooded grasslands,,#26d32e,R7 - Sparsely wooded grasslands
+154,5703,"(38, 211, 46)",R,R7,R73,"Grasslands and lands dominated by forbs, mosses or lichens",Sparsely wooded grasslands,Mediterranean wooded pasture and meadow,#26d32e,R73 - Mediterranean wooded pasture and meadow
+155,6000,"(54, 0, 0)",S,,,"Heathlands, scrub and tundra",,,#360000,"S - Heathlands, scrub and tundra"
+156,6100,"(54, 0, 0)",S,S1,,"Heathlands, scrub and tundra",Tundra,,#360000,S1 - Tundra
+157,6101,"(54, 0, 0)",S,S1,S11,"Heathlands, scrub and tundra",Tundra,Shrub tundra,#360000,S11 - Shrub tundra
+158,6102,"(54, 0, 0)",S,S1,S12,"Heathlands, scrub and tundra",Tundra,Moss and lichen tundra,#360000,S12 - Moss and lichen tundra
+159,6200,"(97, 5, 5)",S,S2,,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",,#610505,"S2 - Arctic, alpine and subalpine scrub"
+160,6201,"(97, 5, 5)",S,S2,S21,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",Subarctic and alpine dwarf Salix scrub,#610505,S21 - Subarctic and alpine dwarf Salix scrub
+161,6202,"(97, 5, 5)",S,S2,S22,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",Alpine and subalpine ericoid heath,#610505,S22 - Alpine and subalpine ericoid heath
+162,6203,"(97, 5, 5)",S,S2,S23,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",Alpine and subalpine Juniperus scrub,#610505,S23 - Alpine and subalpine Juniperus scrub
+163,6204,"(97, 5, 5)",S,S2,S24,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",Subalpine genistoid scrub of the Amphi-Adriatic region,#610505,S24 - Subalpine genistoid scrub of the Amphi-Adriatic region
+164,6205,"(97, 5, 5)",S,S2,S25,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",Subalpine and subarctic deciduous scrub,#610505,S25 - Subalpine and subarctic deciduous scrub
+165,6206,"(97, 5, 5)",S,S2,S26,"Heathlands, scrub and tundra","Arctic, alpine and subalpine scrub",Subalpine Pinus mugo scrub,#610505,S26 - Subalpine Pinus mugo scrub
+166,6300,"(139, 9, 9)",S,S3,,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,,#8b0909,S3 - Temperate and Mediterranean-montane scrub
+167,6301,"(139, 9, 9)",S,S3,S31,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Lowland to montane temperate and submediterranean Juniperus scrub,#8b0909,S31 - Lowland to montane temperate and submediterranean Juniperus scrub
+168,6302,"(139, 9, 9)",S,S3,S32,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Temperate Rubus scrub,#8b0909,S32 - Temperate Rubus scrub
+169,6303,"(139, 9, 9)",S,S3,S33,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Lowland to montane temperate and submediterranean genistoid scrub,#8b0909,S33 - Lowland to montane temperate and submediterranean genistoid scrub
+170,6304,"(139, 9, 9)",S,S3,S34,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Balkan-Anatolian submontane genistoid scrub,#8b0909,S34 - Balkan-Anatolian submontane genistoid scrub
+171,6305,"(139, 9, 9)",S,S3,S35,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Temperate and submediterranean thorn scrub ,#8b0909,S35 - Temperate and submediterranean thorn scrub 
+172,6306,"(139, 9, 9)",S,S3,S36,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Low steppic scrub,#8b0909,S36 - Low steppic scrub
+173,6307,"(139, 9, 9)",S,S3,S37,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Corylus avellana scrub,#8b0909,S37 - Corylus avellana scrub
+174,6308,"(139, 9, 9)",S,S3,S38,"Heathlands, scrub and tundra",Temperate and Mediterranean-montane scrub,Temperate forest clearing scrub,#8b0909,S38 - Temperate forest clearing scrub
+175,6400,"(174, 20, 11)",S,S4,,"Heathlands, scrub and tundra",Temperate heathland,,#ae140b,S4 - Temperate heathland
+176,6401,"(174, 20, 11)",S,S4,S41,"Heathlands, scrub and tundra",Temperate heathland,Wet heath,#ae140b,S41 - Wet heath
+177,6402,"(174, 20, 11)",S,S4,S42,"Heathlands, scrub and tundra",Temperate heathland,Dry heath,#ae140b,S42 - Dry heath
+178,6403,"(174, 20, 11)",S,S4,S43,"Heathlands, scrub and tundra",Temperate heathland,Macaronesian heath,#ae140b,S43 - Macaronesian heath
+179,6500,"(195, 42, 9)",S,S5,,"Heathlands, scrub and tundra","Maquis, arborescent matorral and thermo-Mediterranean scrub",,#c32a09,"S5 - Maquis, arborescent matorral and thermo-Mediterranean scrub"
+180,6501,"(195, 42, 9)",S,S5,S51,"Heathlands, scrub and tundra","Maquis, arborescent matorral and thermo-Mediterranean scrub",Mediterranean maquis and arborescent matorral ,#c32a09,S51 - Mediterranean maquis and arborescent matorral 
+181,6502,"(195, 42, 9)",S,S5,S52,"Heathlands, scrub and tundra","Maquis, arborescent matorral and thermo-Mediterranean scrub",Submediterranean pseudomaquis,#c32a09,S52 - Submediterranean pseudomaquis
+182,6503,"(195, 42, 9)",S,S5,S53,"Heathlands, scrub and tundra","Maquis, arborescent matorral and thermo-Mediterranean scrub",Spartium junceum scrub,#c32a09,S53 - Spartium junceum scrub
+183,6504,"(195, 42, 9)",S,S5,S54,"Heathlands, scrub and tundra","Maquis, arborescent matorral and thermo-Mediterranean scrub",Thermomediterranean arid scrub,#c32a09,S54 - Thermomediterranean arid scrub
+184,6600,"(216, 64, 7)",S,S6,,"Heathlands, scrub and tundra",Garrigue,,#d84007,S6 - Garrigue
+185,6601,"(216, 64, 7)",S,S6,S61,"Heathlands, scrub and tundra",Garrigue,Western basiphilous garrigue,#d84007,S61 - Western basiphilous garrigue
+186,6602,"(216, 64, 7)",S,S6,S62,"Heathlands, scrub and tundra",Garrigue,Western acidophilous garrigue,#d84007,S62 - Western acidophilous garrigue
+187,6603,"(216, 64, 7)",S,S6,S63,"Heathlands, scrub and tundra",Garrigue,Eastern garrigue,#d84007,S63 - Eastern garrigue
+188,6604,"(216, 64, 7)",S,S6,S64,"Heathlands, scrub and tundra",Garrigue,Macaronesian garrigue,#d84007,S64 - Macaronesian garrigue
+189,6605,"(216, 64, 7)",S,S6,S65,"Heathlands, scrub and tundra",Garrigue,Mediterranean gypsum scrub,#d84007,S65 - Mediterranean gypsum scrub
+190,6606,"(216, 64, 7)",S,S6,S66,"Heathlands, scrub and tundra",Garrigue,Mediterranean halo-nitrophilous scrub,#d84007,S66 - Mediterranean halo-nitrophilous scrub
+191,6607,"(216, 64, 7)",S,S6,S67,"Heathlands, scrub and tundra",Garrigue,Aralo-Caspian semi-desert,#d84007,S67 - Aralo-Caspian semi-desert
+192,6608,"(216, 64, 7)",S,S6,S68,"Heathlands, scrub and tundra",Garrigue,Semi-desert sand dune with sparse scrub,#d84007,S68 - Semi-desert sand dune with sparse scrub
+193,6700,"(208, 67, 5)",S,S7,,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,,#d04305,S7 - Spiny Mediterranean heaths
+194,6701,"(208, 67, 5)",S,S7,S71,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,Western Mediterranean spiny heath,#d04305,S71 - Western Mediterranean spiny heath
+195,6702,"(208, 67, 5)",S,S7,S72,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,Eastern Mediterranean spiny heath (phrygana),#d04305,S72 - Eastern Mediterranean spiny heath (phrygana)
+196,6703,"(208, 67, 5)",S,S7,S73,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,Western Mediterranean mountain hedgehog-heath,#d04305,S73 - Western Mediterranean mountain hedgehog-heath
+197,6704,"(208, 67, 5)",S,S7,S74,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,Central Mediterranean mountain hedgehog-heath,#d04305,S74 - Central Mediterranean mountain hedgehog-heath
+198,6705,"(208, 67, 5)",S,S7,S75,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,Eastern Mediterranean mountain hedgehog-heath,#d04305,S75 - Eastern Mediterranean mountain hedgehog-heath
+199,6706,"(208, 67, 5)",S,S7,S76,"Heathlands, scrub and tundra",Spiny Mediterranean heaths,Canarian mountain hedgehog-heath,#d04305,S76 - Canarian mountain hedgehog-heath
+200,6800,"(186, 60, 3)",S,S8,,"Heathlands, scrub and tundra",Thermo-Atlantic xerophytic scrub,,#ba3c03,S8 - Thermo-Atlantic xerophytic scrub
+201,6801,"(186, 60, 3)",S,S8,S81,"Heathlands, scrub and tundra",Thermo-Atlantic xerophytic scrub,Canarian xerophytic scrub,#ba3c03,S81 - Canarian xerophytic scrub
+202,6802,"(186, 60, 3)",S,S8,S82,"Heathlands, scrub and tundra",Thermo-Atlantic xerophytic scrub,Madeiran xerophytic scrub,#ba3c03,S82 - Madeiran xerophytic scrub
+203,6900,"(165, 54, 2)",S,S9,,"Heathlands, scrub and tundra",Riverine and fen scrub,,#a53602,S9 - Riverine and fen scrub
+204,6901,"(165, 54, 2)",S,S9,S91,"Heathlands, scrub and tundra",Riverine and fen scrub,Temperate riparian scrub,#a53602,S91 - Temperate riparian scrub
+205,6902,"(165, 54, 2)",S,S9,S92,"Heathlands, scrub and tundra",Riverine and fen scrub,Salix fen scrub,#a53602,S92 - Salix fen scrub
+206,6903,"(165, 54, 2)",S,S9,S93,"Heathlands, scrub and tundra",Riverine and fen scrub,Mediterranean riparian scrub,#a53602,S93 - Mediterranean riparian scrub
+207,6904,"(165, 54, 2)",S,S9,S94,"Heathlands, scrub and tundra",Riverine and fen scrub,Semi-desert riparian scrub,#a53602,S94 - Semi-desert riparian scrub
+208,7000,"(23, 106, 13)",T,,,Forests and other wooded land,,,#176a0d,T - Forests and other wooded land
+209,7100,"(23, 106, 13)",T,T1,,Forests and other wooded land,Broadleaved deciduous forests,,#176a0d,T1 - Broadleaved deciduous forests
+210,7101,"(23, 106, 13)",T,T1,T11,Forests and other wooded land,Broadleaved deciduous forests,Temperate Salix and Populus riparian forest,#176a0d,T11 - Temperate Salix and Populus riparian forest
+211,7102,"(23, 106, 13)",T,T1,T12,Forests and other wooded land,Broadleaved deciduous forests,Alnus glutinosa-Alnus incana forest on riparian and mineral soils,#176a0d,T12 - Alnus glutinosa-Alnus incana forest on riparian and mineral soils
+212,7103,"(23, 106, 13)",T,T1,T13,Forests and other wooded land,Broadleaved deciduous forests,Temperate hardwood riparian forest,#176a0d,T13 - Temperate hardwood riparian forest
+213,7104,"(23, 106, 13)",T,T1,T14,Forests and other wooded land,Broadleaved deciduous forests,Mediterranean and Macaronesian riparian forest,#176a0d,T14 - Mediterranean and Macaronesian riparian forest
+214,7105,"(23, 106, 13)",T,T1,T15,Forests and other wooded land,Broadleaved deciduous forests,Broadleaved swamp forest on non-acid peat,#176a0d,T15 - Broadleaved swamp forest on non-acid peat
+215,7106,"(23, 106, 13)",T,T1,T16,Forests and other wooded land,Broadleaved deciduous forests,Broadleaved mire forest on acid peat,#176a0d,T16 - Broadleaved mire forest on acid peat
+216,7107,"(23, 106, 13)",T,T1,T17,Forests and other wooded land,Broadleaved deciduous forests,Fagus forest on non-acid soils,#176a0d,T17 - Fagus forest on non-acid soils
+217,7108,"(23, 106, 13)",T,T1,T18,Forests and other wooded land,Broadleaved deciduous forests,Fagus forest on acid soils,#176a0d,T18 - Fagus forest on acid soils
+218,7109,"(23, 106, 13)",T,T1,T19,Forests and other wooded land,Broadleaved deciduous forests,Temperate and submediterranean thermophilous deciduous forest,#176a0d,T19 - Temperate and submediterranean thermophilous deciduous forest
+219,7110,"(23, 106, 13)",T,T1,T1A,Forests and other wooded land,Broadleaved deciduous forests,Mediterranean thermophilous deciduous forest,#176a0d,T1A - Mediterranean thermophilous deciduous forest
+220,7111,"(23, 106, 13)",T,T1,T1B,Forests and other wooded land,Broadleaved deciduous forests,Acidophilous Quercus forest,#176a0d,T1B - Acidophilous Quercus forest
+221,7112,"(23, 106, 13)",T,T1,T1C,Forests and other wooded land,Broadleaved deciduous forests,Temperate and boreal mountain Betula and Populus tremula forest on mineral soils,#176a0d,T1C - Temperate and boreal mountain Betula and Populus tremula forest on mineral soils
+222,7113,"(23, 106, 13)",T,T1,T1D,Forests and other wooded land,Broadleaved deciduous forests,Southern European mountain Betula and Populus tremula forest on mineral soils,#176a0d,T1D - Southern European mountain Betula and Populus tremula forest on mineral soils
+223,7114,"(23, 106, 13)",T,T1,T1E,Forests and other wooded land,Broadleaved deciduous forests,Carpinus and Quercus mesic deciduous forest,#176a0d,T1E - Carpinus and Quercus mesic deciduous forest
+224,7115,"(23, 106, 13)",T,T1,T1F,Forests and other wooded land,Broadleaved deciduous forests,Ravine forest,#176a0d,T1F - Ravine forest
+225,7116,"(23, 106, 13)",T,T1,T1G,Forests and other wooded land,Broadleaved deciduous forests,Alnus cordata forest,#176a0d,T1G - Alnus cordata forest
+226,7117,"(23, 106, 13)",T,T1,T1H,Forests and other wooded land,Broadleaved deciduous forests,Broadleaved deciduous plantation of non site-native trees,#176a0d,T1H - Broadleaved deciduous plantation of non site-native trees
+227,7119,"(23, 106, 13)",T,T1,T1K,Forests and other wooded land,Broadleaved deciduous forests,Broadleaved deciduous plantation of site-native trees,#176a0d,T1K - Broadleaved deciduous plantation of site-native trees
+228,7200,"(49, 77, 11)",T,T2,,Forests and other wooded land,Broadleaved evergreen forests,,#314d0b,T2 - Broadleaved evergreen forests
+229,7201,"(49, 77, 11)",T,T2,T21,Forests and other wooded land,Broadleaved evergreen forests,Mediterranean evergreen Quercus forest,#314d0b,T21 - Mediterranean evergreen Quercus forest
+230,7202,"(49, 77, 11)",T,T2,T22,Forests and other wooded land,Broadleaved evergreen forests,Mainland laurophyllous forest,#314d0b,T22 - Mainland laurophyllous forest
+231,7203,"(49, 77, 11)",T,T2,T23,Forests and other wooded land,Broadleaved evergreen forests,Macaronesian laurophyllous forest,#314d0b,T23 - Macaronesian laurophyllous forest
+232,7204,"(49, 77, 11)",T,T2,T24,Forests and other wooded land,Broadleaved evergreen forests,Olea europaea-Ceratonia siliqua forest,#314d0b,T24 - Olea europaea-Ceratonia siliqua forest
+233,7205,"(49, 77, 11)",T,T2,T25,Forests and other wooded land,Broadleaved evergreen forests,Phoenix theophrasti vegetation,#314d0b,T25 - Phoenix theophrasti vegetation
+234,7206,"(49, 77, 11)",T,T2,T26,Forests and other wooded land,Broadleaved evergreen forests,Phoenix canariensis vegetation,#314d0b,T26 - Phoenix canariensis vegetation
+235,7207,"(49, 77, 11)",T,T2,T27,Forests and other wooded land,Broadleaved evergreen forests,Ilex aquifolium forest,#314d0b,T27 - Ilex aquifolium forest
+236,7208,"(49, 77, 11)",T,T2,T28,Forests and other wooded land,Broadleaved evergreen forests,Macaronesian heathy forest,#314d0b,T28 - Macaronesian heathy forest
+237,7209,"(49, 77, 11)",T,T2,T29,Forests and other wooded land,Broadleaved evergreen forests,Broadleaved evergreen plantation of non site-native trees,#314d0b,T29 - Broadleaved evergreen plantation of non site-native trees
+238,7210,"(49, 77, 11)",T,T2,T2A,Forests and other wooded land,Broadleaved evergreen forests,Broadleaved evergreen plantation of site-native trees,#314d0b,T2A - Broadleaved evergreen plantation of site-native trees
+239,7300,"(22, 61, 18)",T,T3,,Forests and other wooded land,Coniferous forests,,#163d12,T3 - Coniferous forests
+240,7301,"(22, 61, 18)",T,T3,T31,Forests and other wooded land,Coniferous forests,Temperate mountain Picea forest,#163d12,T31 - Temperate mountain Picea forest
+241,7302,"(22, 61, 18)",T,T3,T32,Forests and other wooded land,Coniferous forests,Temperate mountain Abies forest,#163d12,T32 - Temperate mountain Abies forest
+242,7303,"(22, 61, 18)",T,T3,T33,Forests and other wooded land,Coniferous forests,Mediterranean mountain Abies forest,#163d12,T33 - Mediterranean mountain Abies forest
+243,7304,"(22, 61, 18)",T,T3,T34,Forests and other wooded land,Coniferous forests,"Temperate subalpine Larix, Pinus cembra and Pinus uncinata forest",#163d12,"T34 - Temperate subalpine Larix, Pinus cembra and Pinus uncinata forest"
+244,7305,"(22, 61, 18)",T,T3,T35,Forests and other wooded land,Coniferous forests,Temperate continental Pinus sylvestris forest,#163d12,T35 - Temperate continental Pinus sylvestris forest
+245,7306,"(22, 61, 18)",T,T3,T36,Forests and other wooded land,Coniferous forests,Temperate and submediterranean montane Pinus sylvestris-Pinus nigra forest,#163d12,T36 - Temperate and submediterranean montane Pinus sylvestris-Pinus nigra forest
+246,7307,"(22, 61, 18)",T,T3,T37,Forests and other wooded land,Coniferous forests,Mediterranean montane Pinus sylvestris-Pinus nigra forest,#163d12,T37 - Mediterranean montane Pinus sylvestris-Pinus nigra forest
+247,7308,"(22, 61, 18)",T,T3,T38,Forests and other wooded land,Coniferous forests,Mediterranean montane Cedrus forest,#163d12,T38 - Mediterranean montane Cedrus forest
+248,7309,"(22, 61, 18)",T,T3,T39,Forests and other wooded land,Coniferous forests,Mediterranean and Balkan subalpine Pinus heldreichii-Pinus peuce forest,#163d12,T39 - Mediterranean and Balkan subalpine Pinus heldreichii-Pinus peuce forest
+249,7310,"(22, 61, 18)",T,T3,T3A,Forests and other wooded land,Coniferous forests,Mediterranean lowland to submontane Pinus forest,#163d12,T3A - Mediterranean lowland to submontane Pinus forest
+250,7311,"(22, 61, 18)",T,T3,T3B,Forests and other wooded land,Coniferous forests,Pinus canariensis forest,#163d12,T3B - Pinus canariensis forest
+251,7312,"(22, 61, 18)",T,T3,T3C,Forests and other wooded land,Coniferous forests,Taxus baccata forest,#163d12,T3C - Taxus baccata forest
+252,7313,"(22, 61, 18)",T,T3,T3D,Forests and other wooded land,Coniferous forests,Mediterranean Cupressaceae forest,#163d12,T3D - Mediterranean Cupressaceae forest
+253,7314,"(22, 61, 18)",T,T3,T3E,Forests and other wooded land,Coniferous forests,Macaronesian Juniperus forest,#163d12,T3E - Macaronesian Juniperus forest
+254,7315,"(22, 61, 18)",T,T3,T3F,Forests and other wooded land,Coniferous forests,Dark taiga,#163d12,T3F - Dark taiga
+255,7316,"(22, 61, 18)",T,T3,T3G,Forests and other wooded land,Coniferous forests,Pinus sylvestris light taiga,#163d12,T3G - Pinus sylvestris light taiga
+256,7317,"(22, 61, 18)",T,T3,T3H,Forests and other wooded land,Coniferous forests,Larix light taiga,#163d12,T3H - Larix light taiga
+257,7319,"(22, 61, 18)",T,T3,T3J,Forests and other wooded land,Coniferous forests,Pinus and Larix mire forest,#163d12,T3J - Pinus and Larix mire forest
+258,7320,"(22, 61, 18)",T,T3,T3K,Forests and other wooded land,Coniferous forests,Picea mire forest,#163d12,T3K - Picea mire forest
+259,7321,"(22, 61, 18)",T,T3,T3M,Forests and other wooded land,Coniferous forests,Coniferous plantation of non site-native trees,#163d12,T3M - Coniferous plantation of non site-native trees
+260,7322,"(22, 61, 18)",T,T3,T3N,Forests and other wooded land,Coniferous forests,Coniferous plantation of site-native trees,#163d12,T3N - Coniferous plantation of site-native trees
+261,7400,"23,60,10",T,T4,,Forests and other wooded land,"Lines of trees, small anthropogenic forests, recently felled forest, early-stage forest and coppice",,#173c0a,"T4 - Lines of trees, small anthropogenic forests, recently felled forest, early-stage forest and coppice"
+262,7401,"23,60,10",T,T4,T41,Forests and other wooded land,"Lines of trees, small anthropogenic forests, recently felled forest, early-stage forest and coppice",Early-stage natural and semi-natural forest and regrowth,#173c0a,T41 - Early-stage natural and semi-natural forest and regrowth
+263,7403,"23,60,10",T,T4,T43,Forests and other wooded land,"Lines of trees, small anthropogenic forests, recently felled forest, early-stage forest and coppice",Recently felled area,#173c0a,T43 - Recently felled area
+264,8000,"(115, 50, 0)",U,,,Inland habitats with no or little soil and mostly with sparse vegetation,,,#733200,U - Inland habitats with no or little soil and mostly with sparse vegetation
+265,8100,"(115, 50, 0)",U,U1,,Inland habitats with no or little soil and mostly with sparse vegetation,"Terrestrial underground caves, cave systems, passages and waterbodies",,#733200,"U1 - Terrestrial underground caves, cave systems, passages and waterbodies"
+266,8101,"(115, 50, 0)",U,U1,U11,Inland habitats with no or little soil and mostly with sparse vegetation,"Terrestrial underground caves, cave systems, passages and waterbodies",Cave,#733200,U11 - Cave
+267,8102,"(115, 50, 0)",U,U1,U12,Inland habitats with no or little soil and mostly with sparse vegetation,"Terrestrial underground caves, cave systems, passages and waterbodies",Disused underground mine and tunnel,#733200,U12 - Disused underground mine and tunnel
+268,8200,"(115, 59, 3)",U,U2,,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,,#733b03,U2 - Screes
+269,8201,"(115, 59, 3)",U,U2,U21,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Boreal and arctic siliceous scree and block field,#733b03,U21 - Boreal and arctic siliceous scree and block field
+270,8202,"(115, 59, 3)",U,U2,U22,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Temperate high-mountain siliceous scree,#733b03,U22 - Temperate high-mountain siliceous scree
+271,8203,"(115, 59, 3)",U,U2,U23,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,"Temperate, lowland to montane siliceous scree",#733b03,"U23 - Temperate, lowland to montane siliceous scree"
+272,8204,"(115, 59, 3)",U,U2,U24,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Mediterranean siliceous scree,#733b03,U24 - Mediterranean siliceous scree
+273,8205,"(115, 59, 3)",U,U2,U25,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Boreal and arctic base-rich scree and block field,#733b03,U25 - Boreal and arctic base-rich scree and block field
+274,8206,"(115, 59, 3)",U,U2,U26,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Temperate high-mountain base-rich scree and moraine,#733b03,U26 - Temperate high-mountain base-rich scree and moraine
+275,8207,"(115, 59, 3)",U,U2,U27,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,"Temperate, lowland to montane base-rich scree",#733b03,"U27 - Temperate, lowland to montane base-rich scree"
+276,8208,"(115, 59, 3)",U,U2,U28,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Western Mediterranean base-rich scree,#733b03,U28 - Western Mediterranean base-rich scree
+277,8209,"(115, 59, 3)",U,U2,U29,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Eastern Mediterranean base-rich scree,#733b03,U29 - Eastern Mediterranean base-rich scree
+278,8210,"(115, 59, 3)",U,U2,U2A,Inland habitats with no or little soil and mostly with sparse vegetation,Screes,Crimean base-rich scree,#733b03,U2A - Crimean base-rich scree
+279,8300,"(156, 82, 2)",U,U3,,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",,#9c5202,"U3 - Inland cliffs, rock pavements and outcrops "
+280,8301,"(156, 82, 2)",U,U3,U31,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Boreal and arctic siliceous inland cliff,#9c5202,U31 - Boreal and arctic siliceous inland cliff
+281,8302,"(156, 82, 2)",U,U3,U32,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Temperate high-mountain siliceous inland cliff,#9c5202,U32 - Temperate high-mountain siliceous inland cliff
+282,8303,"(156, 82, 2)",U,U3,U33,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ","Temperate, lowland to montane siliceous inland cliff",#9c5202,"U33 - Temperate, lowland to montane siliceous inland cliff"
+283,8304,"(156, 82, 2)",U,U3,U34,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Mediterranean siliceous inland cliff,#9c5202,U34 - Mediterranean siliceous inland cliff
+284,8305,"(156, 82, 2)",U,U3,U35,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Boreal and arctic base-rich inland cliff,#9c5202,U35 - Boreal and arctic base-rich inland cliff
+285,8306,"(156, 82, 2)",U,U3,U36,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Temperate high-mountain base-rich inland cliff,#9c5202,U36 - Temperate high-mountain base-rich inland cliff
+286,8307,"(156, 82, 2)",U,U3,U37,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ","Temperate, lowland to montane base-rich inland cliff",#9c5202,"U37 - Temperate, lowland to montane base-rich inland cliff"
+287,8308,"(156, 82, 2)",U,U3,U38,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Mediterranean base-rich inland cliff,#9c5202,U38 - Mediterranean base-rich inland cliff
+288,8310,"(156, 82, 2)",U,U3,U3A,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Temperate ultramafic inland cliff,#9c5202,U3A - Temperate ultramafic inland cliff
+289,8311,"(156, 82, 2)",U,U3,U3B,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Mediterranean ultramafic inland cliff,#9c5202,U3B - Mediterranean ultramafic inland cliff
+290,8312,"(156, 82, 2)",U,U3,U3C,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Macaronesian inland cliff,#9c5202,U3C - Macaronesian inland cliff
+291,8313,"(156, 82, 2)",U,U3,U3D,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Wet inland cliff,#9c5202,U3D - Wet inland cliff
+292,8314,"(156, 82, 2)",U,U3,U3E,Inland habitats with no or little soil and mostly with sparse vegetation,"Inland cliffs, rock pavements and outcrops ",Limestone pavement,#9c5202,U3E - Limestone pavement
+293,8400,"(255, 255, 254)",U,U4,,Inland habitats with no or little soil and mostly with sparse vegetation,Snow or ice-dominated habitats,,#fffffe,U4 - Snow or ice-dominated habitats
+294,8402,"(255, 255, 254)",U,U4,U42,Inland habitats with no or little soil and mostly with sparse vegetation,Snow or ice-dominated habitats,Ice cap and glacier,#fffffe,U42 - Ice cap and glacier
+295,8403,"(255, 255, 254)",U,U4,U43,Inland habitats with no or little soil and mostly with sparse vegetation,Snow or ice-dominated habitats,Rock glacier and unvegetated ice-dominated moraine,#fffffe,U43 - Rock glacier and unvegetated ice-dominated moraine
+296,8500,"(238, 127, 0)",U,U5,,Inland habitats with no or little soil and mostly with sparse vegetation,Miscellaneous inland habitats usually with very sparse or no vegetation ,,#ee7f00,U5 - Miscellaneous inland habitats usually with very sparse or no vegetation 
+297,8502,"(238, 127, 0)",U,U5,U52,Inland habitats with no or little soil and mostly with sparse vegetation,Miscellaneous inland habitats usually with very sparse or no vegetation ,Polar desert,#ee7f00,U52 - Polar desert
+298,8505,"(0, 0, 0)",U,U5,U55,Inland habitats with no or little soil and mostly with sparse vegetation,Miscellaneous inland habitats usually with very sparse or no vegetation ,Burnt areas with very sparse or no vegetation,#000000,U55 - Burnt areas with very sparse or no vegetation
+299,8600,"(247, 176, 9)",U,U6,,Inland habitats with no or little soil and mostly with sparse vegetation,Recent volcanic features ,,#f7b009,U6 - Recent volcanic features 
+300,8601,"(247, 176, 9)",U,U6,U61,Inland habitats with no or little soil and mostly with sparse vegetation,Recent volcanic features ,Subarctic volcanic field ,#f7b009,U61 - Subarctic volcanic field 
+301,8602,"(247, 176, 9)",U,U6,U62,Inland habitats with no or little soil and mostly with sparse vegetation,Recent volcanic features ,"Mediterranean, Macaronesian and temperate volcanic field",#f7b009,"U62 - Mediterranean, Macaronesian and temperate volcanic field"
+302,8700,"(255, 223, 18)",U,U7,,Inland habitats with no or little soil and mostly with sparse vegetation,Unvegetated or sparsely vegetated shores with mobile sediments,,#ffdf12,U7 - Unvegetated or sparsely vegetated shores with mobile sediments
+303,8701,"(255, 223, 18)",U,U7,U71,Inland habitats with no or little soil and mostly with sparse vegetation,Unvegetated or sparsely vegetated shores with mobile sediments,Unvegetated or sparsely vegetated shore with mobile sediments in montane and alpine regions,#ffdf12,U71 - Unvegetated or sparsely vegetated shore with mobile sediments in montane and alpine regions
+304,8702,"(255, 223, 18)",U,U7,U72,Inland habitats with no or little soil and mostly with sparse vegetation,Unvegetated or sparsely vegetated shores with mobile sediments,Unvegetated or sparsely vegetated shore with mobile sediments in the Mediterranean region,#ffdf12,U72 - Unvegetated or sparsely vegetated shore with mobile sediments in the Mediterranean region
+305,9000,"(255, 255, 85)",V,,,Vegetated man-made habitats,,,#ffff55,V - Vegetated man-made habitats
+306,9100,"(255, 255, 85)",V,V1,,Vegetated man-made habitats,Arable land and market gardens,,#ffff55,V1 - Arable land and market gardens
+307,9101,"(255, 255, 85)",V,V1,V11,Vegetated man-made habitats,Arable land and market gardens,Intensive unmixed crops,#ffff55,V11 - Intensive unmixed crops
+308,9102,"(255, 255, 85)",V,V1,V12,Vegetated man-made habitats,Arable land and market gardens,Mixed crops of market gardens and horticulture,#ffff55,V12 - Mixed crops of market gardens and horticulture
+309,9103,"(255, 255, 85)",V,V1,V13,Vegetated man-made habitats,Arable land and market gardens,Arable land with unmixed crops grown by low-intensity agricultural methods,#ffff55,V13 - Arable land with unmixed crops grown by low-intensity agricultural methods
+310,9104,"(255, 255, 85)",V,V1,V14,Vegetated man-made habitats,Arable land and market gardens,"Inundated or inundatable cropland, including rice fields",#ffff55,"V14 - Inundated or inundatable cropland, including rice fields"
+311,9105,"(255, 255, 85)",V,V1,V15,Vegetated man-made habitats,Arable land and market gardens,"Bare tilled, fallow or recently abandoned arable land",#ffff55,"V15 - Bare tilled, fallow or recently abandoned arable land"
+312,9200,"(255, 250, 85)",V,V2,,Vegetated man-made habitats,Cultivated areas of gardens and parks,,#fffa55,V2 - Cultivated areas of gardens and parks
+313,9201,"(255, 250, 85)",V,V2,V21,Vegetated man-made habitats,Cultivated areas of gardens and parks,Large-scale ornamental garden area,#fffa55,V21 - Large-scale ornamental garden area
+314,9202,"(255, 250, 85)",V,V2,V22,Vegetated man-made habitats,Cultivated areas of gardens and parks,Small-scale ornamental and domestic garden area,#fffa55,V22 - Small-scale ornamental and domestic garden area
+315,9300,"(69, 162, 12)",V,V3,,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,,#45a20c,V3 - Artificial grasslands and herb-dominated habitats
+316,9301,"(69, 162, 12)",V,V3,V31,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,"Agriculturally-improved, re-seeded and heavily fertilised grassland, including sports fields and grass lawns",#45a20c,"V31 - Agriculturally-improved, re-seeded and heavily fertilised grassland, including sports fields and grass lawns"
+317,9302,"(69, 162, 12)",V,V3,V32,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Mediterranean subnitrophilous annual grasslands,#45a20c,V32 - Mediterranean subnitrophilous annual grasslands
+318,9303,"(69, 162, 12)",V,V3,V33,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Dry mediterranean lands with unpalatable non-vernal herbaceous vegetation,#45a20c,V33 - Dry mediterranean lands with unpalatable non-vernal herbaceous vegetation
+319,9304,"(69, 162, 12)",V,V3,V34,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Trampled xeric grassland with annuals,#45a20c,V34 - Trampled xeric grassland with annuals
+320,9305,"(69, 162, 12)",V,V3,V35,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Trampled mesophilous grassland with annuals,#45a20c,V35 - Trampled mesophilous grassland with annuals
+321,9307,"(69, 162, 12)",V,V3,V37,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Annual anthropogenic herbaceous vegetation,#45a20c,V37 - Annual anthropogenic herbaceous vegetation
+322,9308,"(69, 162, 12)",V,V3,V38,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Dry perennial anthropogenic herbaceous vegetation,#45a20c,V38 - Dry perennial anthropogenic herbaceous vegetation
+323,9309,"(69, 162, 12)",V,V3,V39,Vegetated man-made habitats,Artificial grasslands and herb-dominated habitats,Mesic perennial anthropogenic herbaceous vegetation,#45a20c,V39 - Mesic perennial anthropogenic herbaceous vegetation
+324,9400,"(123,53,20)",V,V4,,Vegetated man-made habitats,Hedgerows,,#7b3514,V4 - Hedgerows
+325,9500,"(242, 166, 77)",V,V5,,Vegetated man-made habitats,Shrub plantations,,#f2a64d,V5 - Shrub plantations
+326,9503,"(242, 166, 77)",V,V5,V53,Vegetated man-made habitats,Shrub plantations,"Shrub plantations for ornamental purposes or for fruit, other than vineyards",#f2a64d,"V53 - Shrub plantations for ornamental purposes or for fruit, other than vineyards"
+327,9504,"(242, 166, 77)",V,V5,V54,Vegetated man-made habitats,Shrub plantations,Vineyards,#f2a64d,V54 - Vineyards
+328,9600,"(214, 154, 64)",V,V6,,Vegetated man-made habitats,Tree dominated man-made habitats,,#d69a40,V6 - Tree dominated man-made habitats
+329,9601,"(214, 154, 64)",V,V6,V61,Vegetated man-made habitats,Tree dominated man-made habitats,Broadleaved fruit and nut tree orchards,#d69a40,V61 - Broadleaved fruit and nut tree orchards
+330,9602,"(214, 154, 64)",V,V6,V62,Vegetated man-made habitats,Tree dominated man-made habitats,Evergreen orchards and groves,#d69a40,V62 - Evergreen orchards and groves
+331,9603,"(214, 154, 64)",V,V6,V63,Vegetated man-made habitats,Tree dominated man-made habitats,Lines of planted trees,#d69a40,V63 - Lines of planted trees
+332,9604,"(214, 154, 64)",V,V6,V64,Vegetated man-made habitats,Tree dominated man-made habitats,Small deciduous broadleaved planted other wooded land,#d69a40,V64 - Small deciduous broadleaved planted other wooded land
+333,9605,"(214, 154, 64)",V,V6,V65,Vegetated man-made habitats,Tree dominated man-made habitats,Small evergreen broadleaved planted other wooded land,#d69a40,V65 - Small evergreen broadleaved planted other wooded land
+334,9606,"(214, 154, 64)",V,V6,V66,Vegetated man-made habitats,Tree dominated man-made habitats,Small coniferous planted other wooded land,#d69a40,V66 - Small coniferous planted other wooded land
+335,65535,"(255, 255, 255)",NODATA,,,,,,#ffffff,NODATA

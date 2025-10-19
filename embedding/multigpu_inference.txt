@@ -1,0 +1,41 @@
+#!/bin/bash
+#SBATCH -A bky@v100
+#SBATCH -C v100-32g
+#SBATCH --job-name=dofa_inference        # name of job                 
+
+#SBATCH --nodes=1            # total number of nodes (N to be defined)
+#SBATCH --ntasks-per-node=4  # number of tasks per node (here 4 tasks, or 1 task per GPU)
+#SBATCH --gres=gpu:4         # number of GPUs reserved per node (here 4, or all the GPUs)
+#SBATCH --cpus-per-task=10   # number of cores per task (4x10 = 40 cores, or all the cores)
+#SBATCH --hint=nomultithread      
+
+#SBATCH --time=10:00:00              # maximum execution time requested (HH:MM:SS)
+#SBATCH --output=logs/inference_%j.out    # name of output file
+#SBATCH --error=logs/inference_%j.out     # name of error file (here, in common with the output file)
+
+
+# Cleans out the modules loaded in interactive and inherited by default 
+module purge
+ 
+# Loading of modules
+module load pytorch-gpu/py3/2.4.0
+ 
+# Echo of launched commands
+
+set -x
+
+srun python -u run_dofa_inference.py --batch=128 --workers=10 --mode='s1' --imsize=128
+srun python -u run_dofa_inference.py --batch=128 --workers=10 --mode='s2' --imsize=128
+srun python -u run_eo4b_inference.py --batch=128 --workers=10 --imsize=128
+srun python run_prithvi_inference.py --batch=128 --workers=10 --imsize=128
+srun python run_seco_inference.py --batch=128 --workers=10 --imsize=128
+
+srun python run_ssl4eo_inference.py --batch=128 --workers=8 --archi='cnn' --ssl='dino' --imsize=128
+srun python run_ssl4eo_inference.py --batch=128 --workers=8 --archi='cnn' --ssl='moco' --imsize=128
+srun python run_ssl4eo_inference.py --batch=128 --workers=10 --archi='vit' --ssl='dino' --imsize=128
+srun python run_ssl4eo_inference.py --batch=128 --workers=10 --archi='vit' --ssl='moco' --imsize=128
+
+
+
+
+

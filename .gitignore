@@ -1,0 +1,44 @@
+# General ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.env
+.venv
+.envrc
+.ipynb_checkpoints/
+
+# Data and large files
+data/
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.npz
+*.npy
+
+# Do not track foundation models except EO4B
+/foundation_models/Prithvi_100m/
+/foundation_models/SSL4EO/
+/foundation_models/SSL4ECO/
+
+# If any EO4B subfiles should be ignored (e.g., large checkpoint), add explicit rules here
+# Example: ignore EO4B weights (if you don't want to push them)
+#!/foundation_models/EO4B/*.ckpt
+
+# Logs, builds, envs
+logs/
+dist/
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/

@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH -A bky@cpu
+#SBATCH --job-name=patch_extraction        # name of job
+#SBATCH --partition=prepost                 
+
+
+# Here, reservation of 10 CPUs (for 1 task) and 1 GPU on a single node:
+#SBATCH --nodes=1                    # we request one node
+#SBATCH --ntasks-per-node=1          # with one task per node 
+#SBATCH --hint=nomultithread        
+
+#SBATCH --time=10:00:00              # maximum execution time requested (HH:MM:SS)
+#SBATCH --output=logs/patch_extraction_%j.out    # name of output file
+#SBATCH --error=logs/patch_extraction_%j.out     # name of error file (here, in common with the output file)
+ 
+# Cleans out the modules loaded in interactive and inherited by default 
+module purge
+ 
+# Loading of modules
+module load anaconda-py3/2024.06
+conda activate eo4biodiv
+ 
+# Echo of launched commands
+set -x
+
+python -u scripts/extract_sentinel.py --img_folder='$SCRATCH/habitat_images/' --file_path='dataset/habitat_database_v3.parquet' --xvar='Longitude' --yvar='Latitude' --gridvar='PlotID' --img_size=512 --batch=$1

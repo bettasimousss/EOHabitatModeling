@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH -A bky@v100
+#SBATCH -C v100-32g
+#SBATCH --job-name=mlp_habitat_model        # name of job                 
+
+#SBATCH --nodes=1            # total number of nodes (N to be defined)
+#SBATCH --ntasks-per-node=1  # number of tasks per node (here 4 tasks, or 1 task per GPU)
+#SBATCH --gres=gpu:1         # number of GPUs reserved per node (here 4, or all the GPUs)
+#SBATCH --cpus-per-task=32   # number of cores per task (4x10 = 40 cores, or all the cores)
+#SBATCH --hint=nomultithread      
+
+#SBATCH --time=20:00:00              # maximum execution time requested (HH:MM:SS)
+#SBATCH --output=logs/mlp_habitat_model_%j.out    # name of output file
+#SBATCH --error=logs/mlp_habitat_model_%j.out     # name of error file (here, in common with the output file)
+
+
+# Cleans out the modules loaded in interactive and inherited by default 
+module purge
+ 
+# Loading of modules
+module load pytorch-gpu/py3/2.4.0
+ 
+# Echo of launched commands
+
+set -x
+
+srun python -u train_mlp_habitat_model.py --fold=$1

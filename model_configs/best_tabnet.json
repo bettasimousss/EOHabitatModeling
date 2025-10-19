@@ -1,0 +1,40 @@
+{
+ "hyperparams": {
+    "n_d":64,
+    "n_a":64,
+    "n_steps":3,
+    "gamma":1.5,
+    "n_independent": 1, 
+    "n_shared": 2,
+    "mask_type":"entmax",
+    "use_groups":true
+ },
+    
+ "train_params": {
+     "init_bias": false,
+     "loss" : {
+       "func": "focal",
+       "gamma": 5.0,
+       "beta": 0.999,
+       "alpha": 1.0,
+       "label_smoothing":0.1
+     },
+     "optimizer": {
+         "func": "Adam",
+         "lr":0.02,
+         "decay": 0.0
+     },
+
+     "scheduler": {
+         "func": "StepLR",
+         "step_size": 10,
+         "gamma": 0.9
+     },
+
+     "accelerator": "gpu",
+     "max_epochs": 50,
+     "batch_size": 2048,
+     "num_workers": 10,
+     "pin_memory": true
+ }
+}

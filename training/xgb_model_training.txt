@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH -A bky@v100
+#SBATCH -C v100-32g
+#SBATCH --job-name=xgb_habitat_model        # name of job                 
+
+#SBATCH --nodes=1            # total number of nodes (N to be defined)
+#SBATCH --ntasks-per-node=1  # number of tasks per node (here 4 tasks, or 1 task per GPU)
+#SBATCH --gres=gpu:1         # number of GPUs reserved per node (here 4, or all the GPUs)
+#SBATCH --cpus-per-task=32   # number of cores per task (4x10 = 40 cores, or all the cores)
+#SBATCH --hint=nomultithread      
+
+#SBATCH --time=20:00:00              # maximum execution time requested (HH:MM:SS)
+#SBATCH --output=logs/xgb_habitat_model_%j.out    # name of output file
+#SBATCH --error=logs/xgb_habitat_model_%j.out     # name of error file (here, in common with the output file)
+
+
+# Cleans out the modules loaded in interactive and inherited by default 
+module purge
+ 
+# Loading of modules
+module load pytorch-gpu/py3/2.4.0
+ 
+# Echo of launched commands
+
+set -x
+
+python -u train_xgb_habitat_model.py --imsize=1000 --featset=$1 --target=$2 --msi=$3 --sar=$4 --ncomp=100 --device="cuda" --dirpath=$5

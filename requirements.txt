@@ -1,0 +1,33 @@
+# Core ML / DL
+torch
+torchvision
+timm==0.9.2
+einops
+
+# Remote sensing / geospatial
+rasterio==1.3.9
+tifffile
+
+# Data science / utilities
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+jupyter
+nbformat
+nbconvert
+tqdm
+joblib
+PyYAML
+
+# Models and training
+xgboost
+pytorch-tabnet
+pytorch-lightning
+torchmetrics
+
+# Helpful image / vision libs
+kornia==0.7.0
+opencv-python
